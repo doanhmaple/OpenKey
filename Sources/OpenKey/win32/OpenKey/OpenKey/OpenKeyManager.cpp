@@ -1,9 +1,9 @@
 ﻿/*----------------------------------------------------------
 OpenKey - The Cross platform Open source Vietnamese Keyboard application.
 
-Copyright (C) 2019 Mai Vu Tuyen
-Contact: maivutuyen.91@gmail.com
-Github: https://github.com/tuyenvm/OpenKey
+Copyright (C) 2020 Maple
+Contact: doanhmiu99@gmail.com
+Github: https://github.com/doanhmaple/OpenKey
 Fanpage: https://www.facebook.com/OpenKeyVN
 
 This file is belong to the OpenKey project, Win32 version
@@ -52,7 +52,7 @@ void OpenKeyManager::freeEngine() {
 }
 
 bool OpenKeyManager::checkUpdate(string& newVersion) {
-	wstring dataW = OpenKeyHelper::getContentOfUrl(L"https://raw.githubusercontent.com/tuyenvm/OpenKey/master/version.json");
+	wstring dataW = OpenKeyHelper::getContentOfUrl(L"https://raw.githubusercontent.com/doanhmaple/OpenKey/master/version.json");
 	string data = wideStringToUtf8(dataW);
 
 	//simple parse

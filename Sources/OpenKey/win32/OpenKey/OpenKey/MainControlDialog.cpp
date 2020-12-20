@@ -1,9 +1,9 @@
 ﻿/*----------------------------------------------------------
 OpenKey - The Cross platform Open source Vietnamese Keyboard application.
 
-Copyright (C) 2019 Mai Vu Tuyen
-Contact: maivutuyen.91@gmail.com
-Github: https://github.com/tuyenvm/OpenKey
+Copyright (C) 2020 Maple
+Contact: doanhmiu99@gmail.com
+Github: https://github.com/doanhmaple/OpenKey
 Fanpage: https://www.facebook.com/OpenKeyVN
 
 This file is belong to the OpenKey project, Win32 version
@@ -234,7 +234,7 @@ INT_PTR MainControlDialog::eventProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM
 			onUpdateButton();
 			break;
 		case IDC_BUTTON_GO_SOURCE_CODE:
-			ShellExecute(NULL, _T("open"), _T("https://github.com/tuyenvm/OpenKey"), NULL, NULL, SW_SHOWNORMAL);
+			ShellExecute(NULL, _T("open"), _T("https://github.com/doanhmaple/OpenKey"), NULL, NULL, SW_SHOWNORMAL);
 			break;
 		default:
 			if (HIWORD(wParam) == CBN_SELCHANGE) {
@@ -267,7 +267,7 @@ INT_PTR MainControlDialog::eventProc(HWND hDlg, UINT uMsg, WPARAM wParam, LPARAM
 			else if (link->hdr.idFrom == IDC_SYSLINK_FANPAGE)
 				ShellExecute(NULL, _T("open"), _T("https://www.facebook.com/OpenKeyVN"), NULL, NULL, SW_SHOWNORMAL);
 			else if (link->hdr.idFrom == IDC_SYSLINK_AUTHOR_EMAIL)
-				ShellExecute(NULL, _T("open"), _T("mailto:maivutuyen.91@gmail.com"), NULL, NULL, SW_SHOWNORMAL);
+				ShellExecute(NULL, _T("open"), _T("mailto:doanhmiu99@gmail.com"), NULL, NULL, SW_SHOWNORMAL);
 			break;
 		}
 		}

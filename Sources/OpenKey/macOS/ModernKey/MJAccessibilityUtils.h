@@ -2,8 +2,8 @@
 //  MJAccessibilityUtils.h
 //  OpenKey
 //
-//  Created by Nguyen Tan Thong on 18/9/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 //  Source: https://github.com/Hammerspoon/hammerspoon/blob/master/Hammerspoon/MJAccessibilityUtils.h
 //  License: MIT

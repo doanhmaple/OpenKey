@@ -1,9 +1,9 @@
 ﻿/*----------------------------------------------------------
 OpenKey - The Cross platform Open source Vietnamese Keyboard application.
 
-Copyright (C) 2019 Mai Vu Tuyen
-Contact: maivutuyen.91@gmail.com
-Github: https://github.com/tuyenvm/OpenKey
+Copyright (C) 2020 Maple
+Contact: doanhmiu99@gmail.com
+Github: https://github.com/doanhmaple/OpenKey
 Fanpage: https://www.facebook.com/OpenKeyVN
 
 This file is belong to the OpenKey project, Win32 version
@@ -76,7 +76,7 @@ DWORD WINAPI UpdateThreadFunction(LPVOID lpParam) {
 	WCHAR currentDir[MAX_PATH];
 	GetCurrentDirectory(MAX_PATH, currentDir);
 	wsprintf(path, TEXT("%s\\_OpenKey.tempf"), currentDir);
-	HRESULT res = URLDownloadToFile(NULL, L"https://raw.githubusercontent.com/tuyenvm/OpenKey/master/version.json", path, 0, NULL);
+	HRESULT res = URLDownloadToFile(NULL, L"https://raw.githubusercontent.com/doanhmaple/OpenKey/master/version.json", path, 0, NULL);
 
 	wstring data;
 	if (res == S_OK) {
@@ -102,7 +102,7 @@ DWORD WINAPI UpdateThreadFunction(LPVOID lpParam) {
 	
 	//download zip file
 	WCHAR updateUrl[MAX_PATH];
-	wsprintf(updateUrl, TEXT("https://github.com/tuyenvm/OpenKey/releases/download/%s/OpenKey%s-Windows.zip"),
+	wsprintf(updateUrl, TEXT("https://github.com/doanhmaple/OpenKey/releases/download/%s/OpenKey%s-Windows.zip"),
 		versionName.c_str(),
 		versionName.c_str());
 	wsprintf(path, TEXT("%s\\_OpenKeyUpdate.zip"), currentDir);

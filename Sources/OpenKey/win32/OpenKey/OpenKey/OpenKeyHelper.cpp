@@ -1,9 +1,9 @@
 /*----------------------------------------------------------
 OpenKey - The Cross platform Open source Vietnamese Keyboard application.
 
-Copyright (C) 2019 Mai Vu Tuyen
-Contact: maivutuyen.91@gmail.com
-Github: https://github.com/tuyenvm/OpenKey
+Copyright (C) 2020 Maple
+Contact: doanhmiu99@gmail.com
+Github: https://github.com/doanhmaple/OpenKey
 Fanpage: https://www.facebook.com/OpenKeyVN
 
 This file is belong to the OpenKey project, Win32 version
@@ -22,7 +22,7 @@ redistribute your new version, it MUST be open source.
 
 static BYTE* _regData = 0;
 
-static LPCTSTR sk = TEXT("SOFTWARE\\TuyenMai\\OpenKey");
+static LPCTSTR sk = TEXT("SOFTWARE\\DoanhMaple\\OpenKey");
 static HKEY hKey;
 static LPCTSTR _runOnStartupKeyPath = _T("Software\\Microsoft\\Windows\\CurrentVersion\\Run");
 static TCHAR _executePath[MAX_PATH];

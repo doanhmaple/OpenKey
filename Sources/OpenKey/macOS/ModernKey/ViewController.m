@@ -2,8 +2,8 @@
 //  ViewController.m
 //  ModernKey
 //
-//  Created by Tuyen on 1/18/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -483,11 +483,11 @@ extern int vFixChromiumBrowser;
 }
 
 - (IBAction)onEmailLink:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"mailto:maivutuyen.91@gmail.com"]];
+    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"mailto:doanhmiu99@gmail.com"]];
 }
 
 - (IBAction)onSourceCode:(id)sender {
-  [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/tuyenvm/OpenKey"]];
+  [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/doanhmaple/OpenKey"]];
 }
 
 - (IBAction)onCheckNewVersionButton:(id)sender {

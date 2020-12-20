@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ModernKey
 //
-//  Created by Tuyen on 1/18/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import <AppKit/AppKit.h>
@@ -292,7 +292,7 @@ extern bool convertToolDontAlertWhenCompleted;
 }
 
 -(void)setRunOnStartup:(BOOL)val {
-    CFStringRef appId = (__bridge CFStringRef)@"com.tuyenmai.OpenKeyHelper";
+    CFStringRef appId = (__bridge CFStringRef)@"com.maple.OpenKeyHelper";
     SMLoginItemSetEnabled(appId, val);
 }
 

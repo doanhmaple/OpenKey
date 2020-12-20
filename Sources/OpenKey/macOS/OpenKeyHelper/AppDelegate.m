@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  OpenKeyHelper
 //
-//  Created by Tuyen on 2/1/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,7 +17,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     NSArray* runningApp = [[NSWorkspace sharedWorkspace] runningApplications];
-    if (![runningApp containsObject:@"com.tuyenmai.openkey"]) {
+    if (![runningApp containsObject:@"com.maple.openkey"]) {
         NSString* path = [[NSBundle mainBundle] bundlePath];
         for (int i = 0; i < 4; i++)
             path = [path stringByDeletingLastPathComponent];

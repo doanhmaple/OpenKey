@@ -2,8 +2,8 @@
 //  SmartSwitchKey.h
 //  OpenKey
 //
-//  Created by Tuyen on 8/13/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #ifndef SmartSwitchKey_h

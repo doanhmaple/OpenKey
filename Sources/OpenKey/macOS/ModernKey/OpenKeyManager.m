@@ -2,8 +2,8 @@
 //  OpenKeyManager.m
 //  OpenKey
 //
-//  Created by Tuyen on 1/27/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import "OpenKeyManager.h"
@@ -154,7 +154,7 @@ static CFRunLoopSourceRef runLoopSource;
 +(void)checkNewVersion:(NSWindow*)parent callbackFunc:(CheckNewVersionCallback) callback {
     //load new version config
     NSURLSession *aSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    [[aSession dataTaskWithURL:[NSURL URLWithString:@"https://raw.githubusercontent.com/tuyenvm/OpenKey/master/version.json"] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+    [[aSession dataTaskWithURL:[NSURL URLWithString:@"https://raw.githubusercontent.com/doanhmaple/OpenKey/master/version.json"] completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         if (((NSHTTPURLResponse *)response).statusCode == 200) {
             if (data) {
                 if(NSClassFromString(@"NSJSONSerialization")) {

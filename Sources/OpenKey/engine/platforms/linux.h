@@ -1,7 +1,7 @@
 //
 // linux.h
-// Created by Tuyen Mai on 8/21/19.
-// Copyright (c) 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 

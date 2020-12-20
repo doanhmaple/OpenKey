@@ -2,8 +2,8 @@
 //  AboutViewController.m
 //  OpenKey
 //
-//  Created by Tuyen on 2/15/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import "AboutViewController.h"
@@ -29,7 +29,7 @@
 }
 
 - (IBAction)onHomePage:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/tuyenvm/OpenKey"]];
+    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/doanhmaple/OpenKey"]];
 }
 
 - (IBAction)onFanPage:(id)sender {
@@ -37,7 +37,7 @@
 }
 
 - (IBAction)onLatestReleaseVersion:(id)sender {
-    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/tuyenvm/OpenKey/releases"]];
+    [[NSWorkspace sharedWorkspace] openURL: [NSURL URLWithString:@"https://github.com/doanhmaple/OpenKey/releases"]];
 }
 
 - (IBAction)onCheckUpdateOnStartup:(NSButton *)sender {

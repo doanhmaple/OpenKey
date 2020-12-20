@@ -2,8 +2,8 @@
 //  AboutViewController.h
 //  OpenKey
 //
-//  Created by Tuyen on 2/15/19.
-//  Copyright © 2019 Tuyen Mai. All rights reserved.
+//  Created by Maple on 9/11/20.
+//  Copyright © 2020 Maple. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
